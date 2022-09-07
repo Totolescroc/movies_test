@@ -1,0 +1,34 @@
+@import url('./login.css');
+@import url('./movies.css');
+@import url('./home.css');
+@font-face {
+    font-family: "Disarmer";
+    src: url('../font/Disarmer.otf');
+}
+
+body {
+    background-color: #020024;
+}
+.welcom-sentence {
+    color: #60EED2;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.coucou {
+    position: absolute;
+    top: 6px;
+    padding: 0 10px;
+    font-size: 18px;
+    z-index: 0;
+    transition: transform 0.2s;
+    color: #999;
+}
+
+.coucou2 {
+    color: black;
+    font-size: 14px;
+    background-color: white;
+    transform: translate(5px, -18px);
+}
+
+
